@@ -1,0 +1,46 @@
+Microsoft (R) Macro Assembler (x64) Version 14.00.24210.0   09/27/20 13:30:39
+aLab_1.asm						     Page 1 - 1
+
+
+ 00000000			.DATA
+ 00000000 6C			lb 	db 108
+ 00000001  5E				db 94
+					
+ 00000002 006C			lw	dw 108
+ 00000004  005E				dw 94
+ 00000006  20A9				dw 8361
+ 00000008  209B				dw 8347
+					
+ 0000000A 94			lsh	db -108
+ 0000000B  A2				db -94
+					
+ 0000000C FF94			li	dw -108
+ 0000000E  FFA2				dw -94
+ 00000010  DF57				dw -8361
+ 00000012  DF65				dw -8347
+
+ 00000014 000020A9		ll	dd 8361
+ 00000018  0000209B			dd 8347
+ 0000001C  FFFFDF57			dd -8361
+ 00000020  FFFFDF65			dd -8347
+ 00000000			.CODE
+
+				end
+Microsoft (R) Macro Assembler (x64) Version 14.00.24210.0   09/27/20 13:30:39
+aLab_1.asm						     Symbols 2 - 1
+
+
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+lb . . . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+li . . . . . . . . . . . . . . .	Word	 0000000C _DATA	
+ll . . . . . . . . . . . . . . .	DWord	 00000014 _DATA	
+lsh  . . . . . . . . . . . . . .	Byte	 0000000A _DATA	
+lw . . . . . . . . . . . . . . .	Word	 00000002 _DATA	
+
+	   0 Warnings
+	   0 Errors
